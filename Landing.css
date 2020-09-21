@@ -81,7 +81,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -119,7 +119,7 @@ header img {
 .pic {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80rem;
 }
 
@@ -137,19 +137,20 @@ div h1 {
     width: 60rem;
     font-size: 10rem;
     bottom: 65rem;
+    top: 8rem;
     color: white;
 }
 
 .log {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100rem;
     flex-direction: column;
 }
 
 .log a {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: flex-end;
     width: 20rem;
     text-decoration: none;
@@ -167,9 +168,15 @@ div h1 {
     font-size: 2rem;
 }
 
+.log a:hover {
+    color: #0A1E1F;
+    transition: .5s;
+}
+
 .log h2 {
     font-size: 5rem;
-    color: #1E585C
+    color: #1E585C;
+    margin: 0 1.5rem;
 }
 
 input[type=text] {
@@ -177,19 +184,20 @@ input[type=text] {
     border-radius: 10px;
     width: 35rem;
     height: 4rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0 0 1rem;
 }
 
-
-/* .log #clear {
+.log #clear {
     position: absolute;
     background-color: #ffffff00;
     color: #1E585C;
     cursor: pointer;
-    top: 66.48rem;
-    right: 66rem;
+    top: 72.5vh;
+    bottom: 30vh;
+    right: 20vh;
+    left: 138vh;
     border-color: #ffffff00;
-} */
+}
 
 input[type=submit] {
     background-color: #194A4D;
@@ -198,4 +206,135 @@ input[type=submit] {
     width: 12rem;
     border-radius: 10px;
     margin: auto 1.5rem;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #194A4D;
+    transition: .5s;
+}
+
+.picBio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picBio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+.picBio img {
+    display: flex;
+    margin: auto auto;
+    width: 30rem;
+    height: 25rem;
+    /* border: 2px solid red; */
+}
+
+.picBio h2 {
+    font-size: 4rem;
+    color: #2877A4;
+    text-align: center;
+}
+
+.picBio h3 {
+    font-size: 2rem;
+    color: #3A99CF;
+    text-align: center;
+}
+
+
+/*Tablet size*/
+
+@media(max-width:1024px) {
+    .pic img {
+        height: 70vh;
+        width: 60vh;
+    }
+    .pic h1 {
+        font-size: 6rem;
+        width: 40rem;
+    }
+    .picBio img {
+        width: 20rem;
+        height: 15rem;
+    }
+    .picBio h2 {
+        font-size: 2rem;
+    }
+    .picBio h3 {
+        font-size: 1rem;
+    }
+    .log #clear {
+        left: 57vh;
+        right: 20vh;
+        top: 63vh;
+        bottom: 50vh;
+    }
+}
+
+
+/*phone size*/
+
+@media(max-width:812px) {
+    header h2 {
+        font-size: 3rem;
+    }
+    header img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .pic img {
+        height: 60vh;
+        width: 80vh;
+    }
+    .togather {
+        flex-direction: column;
+    }
+    .log h2 {
+        width: 20rem;
+        font-size: 2rem;
+    }
+    .butt {
+        justify-content: space-between;
+    }
+    .butt a {
+        font-size: 1rem;
+        margin: 1rem 1rem 3rem 0;
+        width: 10rem;
+        justify-content: center;
+    }
+    .log h2 {
+        width: 20rem;
+        text-align: center;
+        margin: auto auto;
+    }
+    form {
+        margin: auto auto;
+    }
+    input[type=text] {
+        width: 20rem;
+    }
+    input[type=submit] {
+        width: 10rem;
+    }
+    .log #clear {
+        left: 24vh;
+        right: 20vh;
+        top: 81vh;
+        bottom: 20vh;
+    }
+    .picBio {
+        flex-direction: column;
+    }
+    .picBio div {
+        margin: .5rem 0;
+    }
+    .picBio img {
+        width: 15rem;
+        height: 15rem;
+    }
 }
