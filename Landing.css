@@ -100,9 +100,102 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #88CCF1;
+    color: white;
+    font-size: 5rem;
 }
 
 header img {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
+    margin: 1rem;
+}
+
+.togather {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 80rem;
+}
+
+.pic img {
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 100rem;
+    width: 80rem;
+}
+
+div h1 {
+    position: absolute;
+    display: flex;
+    width: 60rem;
+    font-size: 10rem;
+    bottom: 65rem;
+    color: white;
+}
+
+.log {
+    display: flex;
+    border: 2px solid red;
+    width: 100rem;
+    flex-direction: column;
+}
+
+.log a {
+    display: flex;
+    border: 2px solid blue;
+    justify-content: flex-end;
+    width: 20rem;
+    text-decoration: none;
+    color: #2D898B;
+    margin: 5vh 2vh 40vh 0;
+}
+
+.log a:nth-child(2) {
+    width: 8rem;
+}
+
+.butt {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+.log h2 {
+    font-size: 5rem;
+    color: #1E585C
+}
+
+input[type=text] {
+    border: 2px solid #1E585C;
+    border-radius: 10px;
+    width: 35rem;
+    height: 4rem;
+    margin: 1rem 0;
+}
+
+
+/* .log #clear {
+    position: absolute;
+    background-color: #ffffff00;
+    color: #1E585C;
+    cursor: pointer;
+    top: 66.48rem;
+    right: 66rem;
+    border-color: #ffffff00;
+} */
+
+input[type=submit] {
+    background-color: #194A4D;
+    color: white;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 10px;
+    margin: auto 1.5rem;
 }
