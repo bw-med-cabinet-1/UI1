@@ -96,6 +96,9 @@ html {
     font-size: 62.5%;
 }
 
+
+/*Heading*/
+
 header {
     display: flex;
     justify-content: center;
@@ -110,6 +113,9 @@ header img {
     width: 6rem;
     margin: 1rem;
 }
+
+
+/*two main items*/
 
 .togather {
     display: flex;
@@ -192,10 +198,10 @@ input[type=text] {
     background-color: #ffffff00;
     color: #1E585C;
     cursor: pointer;
-    top: 72.5vh;
+    top: 71.3vh;
     bottom: 30vh;
     right: 20vh;
-    left: 138vh;
+    left: 132vh;
     border-color: #ffffff00;
 }
 
@@ -336,5 +342,29 @@ input[type=submit]:hover {
     .picBio img {
         width: 15rem;
         height: 15rem;
+    }
+}
+
+@media(max-width:568px) {
+    .pic h1 {
+        font-size: 5rem;
+    }
+    .pic img {
+        height: 70vh;
+        width: 80vh;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    input[type=submit] {
+        margin: auto auto;
+    }
+    .log #clear {
+        top: 100.3vh;
+        bottom: 20vh;
+        left: 42.5vh;
+        right: 20vh;
     }
 }
