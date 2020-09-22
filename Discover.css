@@ -81,7 +81,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    /* border: 2px solid blueviolet; */
+    border: 2px solid blueviolet;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -95,3 +95,59 @@ video {
 html {
     font-size: 62.5%;
 }
+
+
+/*All in the heading*/
+
+header {
+    display: flex;
+    background-color: #88CCF1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .profile {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header img {
+    width: 6rem;
+    height: 6rem;
+}
+
+header h2 {
+    width: 20rem;
+    font-size: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+header .logos {
+    display: flex;
+    align-items: center;
+}
+
+input[type=search] {
+    width: 27rem;
+    height: 3.5rem;
+    border: 2px solid #1E585C;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    width: 6rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: #194A4D;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+
+
+/*Title*/
