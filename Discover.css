@@ -81,7 +81,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -128,6 +128,12 @@ header .logos {
     align-items: center;
 }
 
+.logos img:hover {
+    transition: .5s;
+    opacity: 50%;
+    cursor: pointer;
+}
+
 input[type=search] {
     width: 27rem;
     height: 3.5rem;
@@ -143,11 +149,69 @@ input[type=submit] {
     color: white;
 }
 
+input[type=submit]:hover {
+    transition: .5s;
+    color: #194A4D;
+    background-color: white;
+    cursor: pointer;
+}
+
 header a {
     text-decoration: none;
     font-size: 3rem;
     color: white;
 }
 
+header a:hover {
+    opacity: 50%;
+    transition: .5s;
+}
+
 
 /*Title*/
+
+h1 {
+    font-size: 10rem;
+    text-align: center;
+    color: #1E585C;
+    margin: 0 0 10rem 0;
+}
+
+
+/*Four main things*/
+
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 8rem;
+}
+
+.topic img {
+    width: 50rem;
+    height: 50rem;
+}
+
+.topic h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: #194A4D;
+    text-decoration: none;
+}
+
+.topic a {
+    text-decoration: none;
+    color: #194A4D;
+    cursor: wait;
+}
+
+.topic p {
+    font-size: 1.8rem;
+    text-align: center;
+    color: blueviolet;
+}
