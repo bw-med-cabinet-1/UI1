@@ -81,7 +81,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    /* border: 2px solid blueviolet; */
+    border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -214,4 +214,63 @@ h1 {
     font-size: 1.8rem;
     text-align: center;
     color: blueviolet;
+}
+
+@media(max-width:1024px) {
+    header .logos h2 {
+        font-size: 3rem;
+        width: 18rem;
+    }
+    header .logos img {
+        width: 3rem;
+        height: 3rem;
+    }
+    header .logos {
+        justify-content: flex-start;
+    }
+    input[type=search] {
+        width: 15rem;
+    }
+}
+
+@media(max-width:812px) {
+    header .logos h2 {
+        font-size: 1.6rem;
+        width: 11rem;
+    }
+    form {
+        text-align: center;
+        width: 10rem;
+    }
+    input[type=search] {
+        width: 10rem;
+    }
+    input[type=submit] {
+        width: 5rem;
+    }
+    header .toplinks {
+        width: 8rem;
+    }
+    header .toplinks a {
+        font-size: 1.6rem;
+    }
+    header .profile {
+        height: 5rem;
+        width: 5rem;
+    }
+    h1 {
+        font-size: 5rem;
+        margin: 0 0 2rem 0;
+    }
+    .topic img {
+        width: 20rem;
+        height: 20rem;
+        text-align: center;
+    }
+    .topic h2 {
+        font-size: 3rem;
+    }
+    .topic p {
+        font-size: 1.6rem;
+    }
 }
