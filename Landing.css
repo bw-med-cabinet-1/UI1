@@ -193,17 +193,18 @@ input[type=text] {
     margin: 1.5rem 0 0 1rem;
 }
 
-.log #clear {
+
+/* .log #clear {
     position: absolute;
     background-color: #ffffff00;
     color: #1E585C;
     cursor: pointer;
-    top: 71.3vh;
+    top: 72.5vh;
     bottom: 30vh;
     right: 20vh;
-    left: 132vh;
+    left: 138vh;
     border-color: #ffffff00;
-}
+} */
 
 input[type=submit] {
     background-color: #194A4D;
@@ -240,10 +241,11 @@ input[type=submit]:hover {
     /* border: 2px solid red; */
 }
 
-.picBio h2 {
+.picBio a {
     font-size: 4rem;
     color: #2877A4;
     text-align: center;
+    text-decoration: none;
 }
 
 .picBio h3 {
@@ -268,7 +270,7 @@ input[type=submit]:hover {
         width: 20rem;
         height: 15rem;
     }
-    .picBio h2 {
+    .picBio a {
         font-size: 2rem;
     }
     .picBio h3 {
@@ -295,7 +297,7 @@ input[type=submit]:hover {
     }
     .pic img {
         height: 60vh;
-        width: 80vh;
+        width: 100vh;
     }
     .togather {
         flex-direction: column;
@@ -327,12 +329,13 @@ input[type=submit]:hover {
     input[type=submit] {
         width: 10rem;
     }
-    .log #clear {
+    /* .log #clear {
         left: 24vh;
         right: 20vh;
         top: 81vh;
         bottom: 20vh;
-    }
+        display: hidden;
+    } */
     .picBio {
         flex-direction: column;
     }
@@ -351,7 +354,7 @@ input[type=submit]:hover {
     }
     .pic img {
         height: 70vh;
-        width: 80vh;
+        width: 100vh;
     }
     form {
         display: flex;
@@ -361,10 +364,10 @@ input[type=submit]:hover {
     input[type=submit] {
         margin: auto auto;
     }
-    .log #clear {
+    /* .log #clear {
         top: 100.3vh;
         bottom: 20vh;
         left: 42.5vh;
         right: 20vh;
-    }
+    } */
 }
