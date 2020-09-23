@@ -250,7 +250,13 @@ input[type=submit]:hover {
     font-size: 4rem;
     color: #2877A4;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
+    margin: 0 0 .5rem 0;
+}
+
+.picBio a:hover {
+    color: black;
+    transition: .5s;
 }
 
 .picBio h3 {
