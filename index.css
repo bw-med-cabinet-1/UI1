@@ -294,7 +294,17 @@ input[type=submit]:hover {
         bottom: 50vh;
     }
     .log .butt {
-        height: 5rem;
+        height: 8rem;
+        margin: 0 0 5rem 0;
+        justify-content: space-between;
+    }
+    .log .butt a:nth-child(2) {
+        justify-content: space-between;
+        margin: auto .5rem;
+    }
+    .log .butt a:nth-child(1) {
+        justify-content: space-between;
+        margin: auto 5rem;
     }
 }
 
