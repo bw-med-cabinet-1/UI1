@@ -128,12 +128,6 @@ header .logos {
     align-items: center;
 }
 
-.logos img:hover {
-    transition: .5s;
-    opacity: 50%;
-    cursor: pointer;
-}
-
 input[type=search] {
     width: 27rem;
     height: 3.5rem;
@@ -154,6 +148,10 @@ input[type=submit]:hover {
     color: #194A4D;
     background-color: white;
     cursor: pointer;
+}
+
+header .toplinks a:first-child {
+    margin: 0 .5rem;
 }
 
 header a {
@@ -197,6 +195,11 @@ h1 {
     height: 50rem;
 }
 
+.topic img:hover {
+    opacity: 50%;
+    transition: .5s;
+}
+
 .topic h2 {
     font-size: 5rem;
     text-align: center;
@@ -207,6 +210,9 @@ h1 {
 .topic a {
     text-decoration: none;
     color: #194A4D;
+}
+
+.topic .wait {
     cursor: wait;
 }
 
@@ -221,7 +227,7 @@ h1 {
         font-size: 3rem;
         width: 18rem;
     }
-    header .logos img {
+    header img {
         width: 3rem;
         height: 3rem;
     }
@@ -236,7 +242,7 @@ h1 {
 @media(max-width:812px) {
     header .logos h2 {
         font-size: 1.6rem;
-        width: 11rem;
+        width: 9rem;
     }
     form {
         text-align: center;
@@ -253,6 +259,9 @@ h1 {
     }
     header .toplinks a {
         font-size: 1.6rem;
+    }
+    header .toplinks a:first-child {
+        margin: 0 0;
     }
     header .profile {
         height: 5rem;
