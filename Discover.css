@@ -272,9 +272,15 @@ h1 {
         margin: 0 0 2rem 0;
     }
     .topic img {
+        height: 20rem;
+        width: 20rem;
+        margin: 0 5rem;
+    }
+    .topic img a {
         width: 20rem;
         height: 20rem;
-        text-align: center;
+        border: 2px solid red;
+        margin: 0 auto;
     }
     .topic h2 {
         font-size: 3rem;
