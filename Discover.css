@@ -104,7 +104,7 @@ body {
 
 /*All in the heading*/
 
-header {
+nav {
     display: flex;
     background-color: #88CCF1;
     align-items: center;
