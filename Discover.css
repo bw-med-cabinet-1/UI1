@@ -96,6 +96,11 @@ html {
     font-size: 62.5%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 /*All in the heading*/
 
@@ -274,12 +279,12 @@ h1 {
     .topic img {
         height: 20rem;
         width: 20rem;
-        margin: 0 5rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
     }
-    .topic img a {
-        width: 20rem;
-        height: 20rem;
-        border: 2px solid red;
+    .topic {
+        padding: 0 5rem;
         margin: 0 auto;
     }
     .topic h2 {

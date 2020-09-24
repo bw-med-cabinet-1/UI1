@@ -96,8 +96,13 @@ html {
     font-size: 62.5%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*Heading*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 header {
     display: flex;
@@ -270,8 +275,7 @@ input[type=submit]:hover {
 
 @media(max-width:1024px) {
     .pic img {
-        height: 70vh;
-        width: 60vh;
+        width: 20rem;
     }
     .pic h1 {
         font-size: 6rem;
