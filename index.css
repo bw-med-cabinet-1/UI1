@@ -251,6 +251,11 @@ input[type=submit]:hover {
     /* border: 2px solid red; */
 }
 
+.picBio img:hover {
+    opacity: 50%;
+    transition: .5s;
+}
+
 .picBio a {
     font-size: 4rem;
     color: #2877A4;
